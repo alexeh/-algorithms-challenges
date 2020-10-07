@@ -19,7 +19,6 @@ anagrams('laser', ['lazing', 'lazy',  'lacer']) => [] */
 
 function anagrams(word, words) {
   const ansArr = [];
-
   words.forEach((el) => {
     let anagram = "";
     for (let i = el.length - 1; i >= 0; i--) {
@@ -30,7 +29,6 @@ function anagrams(word, words) {
       ansArr.push(el);
     } else {
     }
-
     return ansArr;
   });
 }
